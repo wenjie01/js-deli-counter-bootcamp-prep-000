@@ -6,14 +6,3 @@ function takeANumber(katzDeLine,name) {
   return katzDeLine;
 }
 
-var katzDeline = [];
-function nowServing(katzDeLine) {
-  if ( katzDeLine.length = 0) {
-    return "There is nobody waiting to be served!";
-  } else {
-    var a = katzDeLine.shift();
-
-    return `Currently serving ${a}.`;
-  }
-  return katzDeline;
-}
